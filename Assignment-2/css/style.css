@@ -10,7 +10,6 @@
 }
 
 body {
-  /* The image used */
   background-image: url(../images/wave.jpg);
   opacity: 0.8;
   min-height: 500px; 
@@ -77,3 +76,74 @@ body {
 br{
 	padding: 50px;
 }
+.section3{
+	padding-top: 130px;
+}
+.nav-link{
+	font-size: 1.4em;
+	color: black;
+
+}
+
+/*.nav-link:hover{
+	text-decoration: none;
+}
+.nav-link, .nav-item{
+	text-decoration: none;
+}
+*/
+
+
+.info{
+	font-size: 1.3em;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.info-img{
+	margin-top: 130px;
+	padding-top: 40px;
+	padding-left: 40px;
+	width: 280px;
+	height: 240px;
+}
+
+.js, .bs, .jq{
+	margin-top: -10px;
+}
+.bs{
+	padding-left: 90px;
+	border-radius: 50%;
+}
+.jq{
+	margin-top: 20px;	
+}
+form{
+	
+	margin-top: 190px;
+}
+.form-text-main{
+	  text-shadow: 2px 2px 8px white;
+
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.form-control{
+	border-radius: 30px;
+}
+label , input{
+	/*margin-bottom: 20px;*/
+}
+
+.form-check-label{
+	display: unset;
+}
+.end{
+	margin-top: 20px;
+	font-size: 1.2em;
+
+}
+
+
