@@ -128,7 +128,7 @@ body{
 
 @media(max-width: 900px){
 	#main{
-		display: block;
+		display: flex;
 	}
 	#login{
 		/*width: auto;*/
