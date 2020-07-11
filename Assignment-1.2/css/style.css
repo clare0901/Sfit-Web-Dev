@@ -104,15 +104,13 @@ body{
 	border-radius: 20px;
 	border:0;
 	background-color: lightsteelblue;
+	outline: none;
 }
 
 #button:hover{
 	background-image: linear-gradient(to right,lightblue,darkblue);
 }
 
-#button:focus{
-	outline: none;
-}
 
 @media(max-width: 900px){
 	#main{
