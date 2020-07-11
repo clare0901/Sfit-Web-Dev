@@ -110,6 +110,9 @@ body{
 	background-image: linear-gradient(to right,lightblue,darkblue);
 }
 
+#button:focus{
+	outline: none;
+}
 
 @media(max-width: 900px){
 	#main{
