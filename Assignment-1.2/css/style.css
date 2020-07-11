@@ -36,11 +36,10 @@ body{
 #login{
     margin-top: 60px;
     margin-bottom: 100px;
-    height: auto;
     background-image: linear-gradient(darkblue,lightblue,lightblue,darkblue);
     opacity: .8;
     width: 500px;
-    height: auto;
+    height: fit-content;
     padding-bottom: 90px;
 }
 
@@ -130,7 +129,6 @@ body{
 @media(max-width: 575px){
 	#login{
 		width: auto;
-		height: auto;
 	}
 
 	#avtar{
