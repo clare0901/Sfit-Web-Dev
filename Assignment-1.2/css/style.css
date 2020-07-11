@@ -21,15 +21,10 @@ body{
 	grid-template-columns: repeat(2,1fr);
 	width: 100vw;
 	height: 100vh;
-	
 }
 
 #svg{
-	/*border: 2px solid black;*/
-	/*position: absolute;*/
-	/*top: 120px;*/
-    /*left: 130px;*/
-    margin-top: 120px;
+	margin-top: 120px;
     margin-left: 130px;
     z-index: 100;
 }
@@ -39,19 +34,10 @@ body{
 }
 
 #login{
-	/*position: absolute;*/
-    /*border: 2px solid black;*/
-    /*top: 60px;*/
-    /*left: 600px;*/
-    /*right: 40px;*/
-    /*margin-left: 00px;*/
     margin-top: 60px;
     margin-bottom: 100px;
     height: auto;
-
     background-image: linear-gradient(darkblue,lightblue,lightblue,darkblue);
-    /*background-color: black;*/
-
     opacity: .8;
     width: 500px;
     height: auto;
@@ -62,7 +48,6 @@ body{
 	height: 15vh;
 	margin-top: 25px;
 	margin-left: 200px;
-
 }
 
 #text{
@@ -78,7 +63,6 @@ body{
 	flex-direction: row;
 	padding-left: 50px;
 	padding-top: 15px;
-
 }
 
 .user , #name, #pass{
@@ -100,12 +84,14 @@ body{
 	padding-left: 15px;
 	margin-left: -310px;
 }
+
 .input{
 	display: block;
 	border: none;
 	outline: none;
 	background: none;
 }
+
 #btn{
 	margin-top: 50px;
 	text-align: center;
@@ -130,14 +116,38 @@ body{
 	#main{
 		display: flex;
 	}
+
 	#login{
-		/*width: auto;*/
-		/*height: auto;*/
 		margin-right: auto;
 		margin-left: auto;
 	}
+	
 	#svg{
 		display: none;
+	}
+}
 
+@media(max-width: 575px){
+	#login{
+		width: auto;
+		height: auto;
+	}
+
+	#avtar{
+		margin-left:130px;
+	}
+	
+	.user , #name, #pass{
+		width: 200px;
+	}
+	
+	#name, #pass{
+		margin-left: -180px;
+	}
+	
+	#button{
+		margin-left: 100px;
+		margin-right: 100px;
+		width: 150px;
 	}
 }
