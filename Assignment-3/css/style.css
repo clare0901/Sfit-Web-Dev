@@ -92,3 +92,9 @@ label{
 		margin-bottom: 15px;
 	}
 }
+
+@media(max-width: 385px){
+	#mail{
+		width: 250px;
+	}
+}
