@@ -38,14 +38,16 @@ body{
 #login{
 	position: absolute;
     /*border: 2px solid black;*/
-    /*display: -webkit-inline-box;*/
     top: 60px;
     left: 600px;
+    /*right: 40px;*/
     background-image: linear-gradient(darkblue,lightblue,lightblue,darkblue);
-    /*background-color: steelblue;*/
+    /*background-color: black;*/
+
     opacity: .8;
     width: 500px;
-    height: 80vh;
+    height: auto;
+    padding-bottom: 90px;
 }
 
 #avtar{
@@ -113,4 +115,12 @@ body{
 
 #button:hover{
 	background-image: linear-gradient(to right,lightblue,darkblue);
+}
+
+
+@media(max-width: 900px){
+	#login{
+		position: fixed;
+
+	}
 }
