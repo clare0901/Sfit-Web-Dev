@@ -63,7 +63,10 @@ body{
 	margin-left: 40px;
 	margin-right: -300px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid black;
+	
+	/*if want to give transition effect
+	un-comment it*/
+	/*border-bottom: 1px solid black;*/
 	width: 330px;
 }
 
@@ -76,32 +79,29 @@ body{
 	margin-top: 25px;
 }
 
-#username, #password{
+/*#username, #password{
 	margin-left: -80px;
 	outline: none;
 	border: none;
 	background: none;
-}
-
-
-
-
-#one{
-	display: inline-block;
-	transition: transform ease-in 2s;	
-}
-
-#one:focus{
-	transform: translateY(-30px);
-}
-
-/*#username:focus{
-	transform: rotate(20deg);
 }*/
 
-#password{
-	margin-left: -77px; 
+#username, #password{
+	margin-left: 10px;
+	padding-left: 10px;
+	border-radius: 9px;
+	border: 1px solid darkblue;
+	outline: none;
+	height: 20px;
 }
+
+#one{
+	display: inline-block;	
+}
+
+/*#password{
+	margin-left: -77px; 
+}*/
 
 #btn{
 	margin-top: 50px;
@@ -148,11 +148,20 @@ body{
 		margin-left:130px;
 	}
 	
-	.fas{
+	/*uncomment this for trans effect*/
+
+	/*.fas{
 		margin-right: -250px;
 		width: 280px;
-	}
+	}*/
 		
+	/*comment this after un-commenting the above code*/
+
+	#username, #password{
+		display: block;
+		margin-left: 50px;
+	}
+
 	#button{
 		margin-left: 100px;
 		margin-right: 100px;
