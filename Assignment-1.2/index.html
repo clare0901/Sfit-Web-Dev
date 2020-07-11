@@ -4,7 +4,11 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="js/script.js" type="text/javascript"></script>
+
 	<title>Assignment 1.2</title>
 </head>
 <body>
@@ -28,28 +32,21 @@
 
 				<h1 id="text">Welcome</h1>
 			
-				<!-- username -->
-				<div id="username">
-					<div class="user">
-						<i class="fas fa-user"></i>
-					</div>
 
-					<div id="name">Username
-						<input type="text" class="input" >
-					</div>
-				</div>
+				<label id="name" for="username">
+					<i class="fas fa-user"></i>
+					<p id="one">Username</p>
+					<input id="username" type="text" class="input" required="" >
+				</label>
 
-				<!-- password -->
-				<div id="password">
-					<div class="user">
-						<i class="fas fa-lock"></i>
-					</div>
 
-					<div id="pass">Password
-						<input type="password" class="input">
-					</div>					
-				</div>
+				<label id="pass" for="password">
+					<i class="fas fa-lock"></i>
+					Password
+					<input id="password" type="password" class="input" required="">
+				</label>
 
+				
 				<div id="btn">
 					<button id="button">LOGIN</button>
 				</div>				

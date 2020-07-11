@@ -1,17 +1,6 @@
-/*#main{
-	width: 80vw;
-	height: 80vh;
-	border:1px solid black;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 100px;
-	padding: 40px
-}*/
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto ;
-  /*background-color: blue;*/
   padding: 10px;
 }
 
@@ -22,49 +11,56 @@
   font-size: 1.2em;
   text-align: center;
 }
+
 #time{
 	width: 150px;
 }
+
 #time-label{
 	color: white;
 }
+
 #btn{
 	width:100px;
 	border-radius: 50px;
 	margin-left: -100px
 	border:0px;
-
 }
+
 #btn:hover, .button:hover{
-	background-color: yellow;
-	
-
+	background-color: yellow;	
 }
+
 #btn:focus, .button:focus{
 	outline: none;
 }
+
 .img{
 	width: 400px;
 	height: 400px;
 }
+
 input{
 	border-radius: 15px;
 }
+
 input:focus{
 	outline: none;
 }
+
 label{
 	padding: 15px;
 	display: block;
 	font-size: 1em;
 	margin-bottom: 20px;
 }
+
 #cal{
 	padding: 10px;
 	margin: 20px;
 	border:1px solid black;
-
 }
+
 .button{
 	margin-left: 10px;
 	font-size: 1em;
@@ -80,6 +76,19 @@ label{
 	margin: 20px;
 	border:1px solid black;
 }
+
 #mail{
 	width: 300px;
+}
+
+@media(max-width: 678px){
+	.grid-container{
+		display: block;
+	}
+	.img{
+		height: 300px;
+	}
+	.button{
+		margin-bottom: 15px;
+	}
 }

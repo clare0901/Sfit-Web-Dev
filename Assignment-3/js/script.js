@@ -10,12 +10,12 @@ function Sec(){
 	// console.log(typeof(a));
 	// console.log(a);
 
-// document.getElementById('carouselExampleSlidesOnly')
-// 	.setAttribute('data-interval',a);
+document.getElementById('carouselExampleSlidesOnly')
+	.setAttribute('data-interval',a);
 
 	$('.carousel').carousel({
  		interval: a
-});
+	});
 
 }
 
@@ -50,4 +50,29 @@ function Evaluate(op) {
 	}
 
 	document.getElementById('ans').value = ans;
+}
+
+
+// email verfiy
+
+function check() {
+	
+	var val = document.getElementById('mail');
+	var a = val.value;
+
+	console.log(a);
+        var r = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+
+	// var r =  /([a-zA-Z0-9]) + \@([a-zA-Z])\ + \.[a-zA-Z]{2,4} /;
+	
+
+	if(r.test(a) === false){
+		document.getElementById('mail').style.backgroundColor = "red";
+	}
+	else{
+		console.log("hi");
+		document.getElementById('mail').style.backgroundColor = "green";		
+	}
+
 }
