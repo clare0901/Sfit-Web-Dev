@@ -10,8 +10,8 @@ function Sec(){
 	// console.log(typeof(a));
 	// console.log(a);
 
-document.getElementById('carouselExampleSlidesOnly')
-	.setAttribute('data-interval',a);
+	// document.getElementById('carouselExampleSlidesOnly').setAttribute('data-interval',a);
+	// can't get it right
 
 	$('.carousel').carousel({
  		interval: a

@@ -1,7 +1,11 @@
+body{
+	background-color: orange;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto ;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-item {
@@ -29,7 +33,7 @@
 }
 
 #btn:hover, .button:hover{
-	background-color: yellow;	
+	background-color: orange;	
 }
 
 #btn:focus, .button:focus{
@@ -61,6 +65,8 @@ label{
 }
 
 #cal{
+	background-color: black;
+	color: white;
 	padding: 10px;
 	margin: 20px;
 	border:1px solid black;
@@ -77,6 +83,8 @@ label{
 
 /*email verification*/
 #email{
+	background-color: black;
+	color: white;
 	padding: 10px;
 	margin: 20px;
 	border:1px solid black;
