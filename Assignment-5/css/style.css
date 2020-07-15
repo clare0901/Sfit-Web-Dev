@@ -1,0 +1,31 @@
+#form{
+	border:1px solid black;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.product-form{
+	/*display: block;*/
+	margin-top: 40px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right: auto;
+	width: 500px;
+}	
+
+label{
+	display: block;
+	padding: 20px;
+}
+#btn{
+	margin-left: 30px;
+	padding: 5px;
+}
+#btn-add{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
