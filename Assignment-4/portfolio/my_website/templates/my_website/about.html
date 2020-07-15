@@ -1,0 +1,93 @@
+{% extends 'my_website/base.html' %}
+{% load static %}
+{% block stylesheets %}
+<style>
+        .img-container img {
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+        .img-container {
+            margin-top: 2rem;
+        }
+        .personal {
+            padding: 3rem;
+        }
+        .detail {
+            padding: 3rem;
+        }
+        .detail i {
+            margin-right: 1rem;
+            color: #15aabf;
+        }
+        b {
+            padding-right: 10px;
+        }
+        .card {
+            margin-top: 6rem;
+        }
+        ul {
+            position: relative;
+            right: 0;
+        }
+        .useful_link a {
+            color: #ccc;
+            margin: 1rem;
+        }
+        .useful_link a:hover {
+            color: #000;
+        }
+        .profile_name h1,
+        h5 {
+            margin: 1rem;
+        }
+    </style>
+    {% endblock stylesheets %}
+
+    {% block headscript %}
+    {% endblock headscript %}
+
+{% block content %}
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row ">
+                    <div class="img-container mx-auto">
+                        <img src="{% static 'my_website/images/me.jpg' %}">
+                    </div>
+                </div>
+                <div class="row align-self-center">
+                    <div class="profile_name text-center">
+                        <h1>Sangram Tambe</h1>
+                        <h5>I'm Front End Developer</h5>
+                        <div class="useful_link ml-auto">
+                            <center>
+                                <a href="#"><span class="fab fa-github fa-2x"></span></a>
+                                <a href="#"><span class="fab fa-linkedin fa-2x"></span></a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 personal">
+                            <h3 style="font-weight: bold">Personal Detail</h3>
+                            <p>Hye, I’m Johnathan Doe residing in this beautiful world. I create websites and mobile apps with great UX and UI design. I have done work with big companies like Nokia, Google and Yahoo. Meet me or Contact me for any queries. One Extra line for filling space. Fill as many you want.Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+                        </div>
+                        <div class="col-md-6 detail">
+                            <p><i class="far fa-user-circle"></i><b>Name:</b> Sangram </p>
+                            <p><i class="fas fa-phone"></i><b>Phone:</b> 9999999999</p>
+                            <p><i class="fas fa-envelope"></i><b>Email:</b> sangram@gmail.com</p>
+                            <p><i class="far fa-calendar-alt"></i><b>Date Of Birth:</b> 22-11-1997</p>
+                            <p><i class="fas fa-map-marker-alt"></i><b>Address:</b> Mumbai Central</p>
+                            <p><i class="fas fa-code"></i><b>Language:</b> Python,HTML</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}
+
