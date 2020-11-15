@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Assignment-6</title>
+	<title>Assignment-5</title>
 </head>
 <body>
 	<!-- prime nos -->
@@ -20,7 +20,7 @@
 	</form>
 
 	<!-- product -->
-	<form class="product-form" action="product.php" method="post">
+	<form class="product-form" action="operations.php" method="post">
 		<label for="product-id">Enter Product Id:
 			<input id="id" type="number" name="product-id" required="">
 		</label>
@@ -36,7 +36,9 @@
 		<label for="product-description">Enter Product Description:
 			<input id="description" type="text" name="product-description" required="">
 		</label>
-		<button id="btn-add">Add</button>
+		<button id="btn-add" name="query" value="CREATE">Create</button>
+		<button id="btn-add" name="query" value="ADD">Add</button>
+		<button id="btn-add" name="query" value="DELETE">Delete</button>
 	</form>
 	
 </body>
